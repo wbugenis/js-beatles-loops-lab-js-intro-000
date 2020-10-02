@@ -4,4 +4,5 @@ function theBeatlesPlay (musician, instrument) {
   for(let i = 0; i < musician.length; i++) {
     play.push(`$(musician[i]) plays $instrument[i]`);
   }
+  return play;
 }
